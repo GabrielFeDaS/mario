@@ -30,4 +30,4 @@ const loop = setInterval(() => {
 
 }, 10);
 
-document.addEventListener('click', jump);
+document.addEventListener('keydown', jump);
